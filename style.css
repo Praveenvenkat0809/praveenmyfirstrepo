@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    .container{
+        height: 100%;
+        justify-content: center;
+        justify-items: center;
+        display: flex;
+        
+}
+ form{
+    margin: 40px;
+    padding: 10px 40px 20px 20px;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 10px;
+    width:400px ;
+    float: right;
+    border-radius: 2px;
+
+    }
+    .firstname{
+        float: left;
+        color: chartreuse;
+    }
+    .lastname{
+        float: right;
+        color: chartreuse;
+    }
+    .password{
+        float: left;
+        color: chartreuse;
+    }
+   .confirm-password{
+    float: right;
+    color: chartreuse;
+   }
+   .hobbies{
+    float: right;
+    color: chartreuse;
+   }
+   .gender{
+    float: left;
+    color: chartreuse;
+   }
+   .source{
+    float: left;
+    color: chartreuse;
+   }
+   .range{
+    float: right;
+   }
+   .file{
+    float: left;
+    width: 160px ;
+    color: chartreuse;
+   }
+   .age{
+    float: right;
+    color: chartreuse;
+   }
+   input[type=button]{
+    float: right;
+    color:black;
+    cursor: pointer;
+   }
+   h1{
+    text-align: center;
+    background-color: darkgrey;
+   }
+   .email{
+    color:greenyellow;
+   }
+   input[type=button]:hover{
+    background-color: chartreuse;
+
+   }
