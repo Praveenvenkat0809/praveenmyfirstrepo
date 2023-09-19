@@ -1,95 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Create Account</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create Account</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    
+        <div class="container">
+            <h1>Create Account</h1>
+            <form>
 
-  <body>
-    <div class="container">
-      
-      <form action="#">
-        <h1>create Account</h1>
-
-        <div >
-          <div class="firstname">
-            <label>First name*</label><br />
-            <input type="text" placeholder="enter your first name" />
-          </div>
-          <div class="lastname">
-            <label>Last name</label><br />
-            <input type="text" id="name" placeholder="enter your last name" />
-          </div>
-        </div>
-        
-        <div class="email">
-          <label> Email* </label><br>
-          <input type="email" placeholder="enter your email" />
-        </div>
-
-        <div>
-          <div class="password">
-            <label>Password*</label>
-            <input type="password" placeholder="enter your password" />
-          </div>
-
-          <div class="confirm-pass">
-            <label>Confirm Password*</label>
-            <input type="password" placeholder="enter your password again" />
-          </div>
-        </div>
-
-        <div>
-          <div class="gender">
-            <br />
-            <label>Gender</label><br>
-            <input type="radio" name="male" />Male
-            <input type="radio" name="Female" />Female
-          </div>
-
-          <div class="hobbies">
-            <br />
-            <label>Hobbies</label><br />
-            <input type="checkbox" name="music" />Music
-            <input type="checkbox" name="sports" />sports 
-            <input type="checkbox" name="travel" />travel
-            <input type="checkbox" name="movies" />Movies
-          </div>
-        </div>
-
-        <div>
-          <div class="source" >
             
-            <label>Source of Income</label><br />
-            <input type="text" value="Employed" />
-          </div>
-          <div class="range" >
-            <br />
-            <label>Income</label><br>
-            <input type="range" id="range" />20k
-          </div>
+                <div class="name">
+                    <div>
+                    <label>First Name*</label><br>
+                    <input type="text " placeholder="Enter your name">
+                    </div>
+               <div class="last">
+                <label>Last Name</label><br>
+                <input type = "text"  placeholder="Enter your last name">
+               </div>
+            </div>
+               
+              <div class="email">
+               <label>Email*</label><br>
+               <input type = "email" placeholder="Enter your email"></input></div>
+
+              
+               <div class="pass">
+                <div>
+                <label>Password*</label><br>
+                <input type ="password" placeholder="Enter your password">
+            </div>
+
+            <div class="confirm">
+                <label>Confirm password*</label><br>
+                <input type="password" placeholder="enter your password again">
+            </div>
+              </div>
+
+        <div class="gen" >
+            <div>
+                <label>Gender</label><br>
+                <input type="radio" name="male">Male
+                <input type="radio" name="female">Female
+            </div>
+            <div class="hobbies">
+                <label>Hobbies</label><br>
+                <input type="checkbox" name="Music">Music
+                <input type="checkbox" name="Music">Sports
+                <input type="checkbox" name="Music">Travel
+                <input type="checkbox" name="Music">Movies
+            </div>
+       </div>
+                  
+       <div class="income">
+        <div>
+            <label>Source of income</label><br>
+            <select>
+                <option value="Employed">Employed</option>
+                <option value="unemployed">unemployed</option>
+            </select>
+        </div>
+        <div class="range">
+            <label>income</label><br>
+            <input type="range" name="range">
+        </div>
+   </div>
+    <div class="upload">
+        <div>
+        <label>Upload Profile Picture</label><br>
+        <input type="file">
         </div>
 
-        <div >
-          <div class="file">
-            <label>Upload Profile Picture</label>
-            <input type="file" />
-          </div>
-
-          <div class="age">
-            <label>Age</label><br />
-            <input type="text" name="age" />
-          </div>
-        </div>
-
-        <div class="bio">
-          <label>Bio</label><br />
-          <textarea cols="45" rows="5"></textarea>
-        </div>
-        <input type="button" value="Create" />
-      </form>
+    <div class="age">
+        <label>Age</label><br>
+        <input type="number">
     </div>
-  </body>
-</html>
+
+    </div>
+    <div class="bio">
+        <label>Bio</label><br>
+        <textarea cols="60" rows="4"></textarea>
+    </div>
+          
+    <div class="btn">
+        <button type="submit">Create</button>
+    </div>
+
+        </div>
+    </div>
+
+    </form>
+    </body>
+    </html>
